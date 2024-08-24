@@ -144,10 +144,10 @@ void iniciarViagem() {
     std::cout << "Digite o nome do transporte: ";
     std::getline(std::cin, transporteNome);
     Transporte* transporte = encontrarTransportePorNome(transporteNome);
-    if (!transporte || transporte->getLocalizacaoAtual() != origem) {
-        std::cout << "Transporte não encontrado ou não está na cidade de origem!\n";
-        return;
-    }
+    //if (!transporte || transporte->getLocalizacaoAtual() != origem) {
+      //  std::cout << "Transporte não encontrado ou não está na cidade de origem!\n";
+        //return;
+   // }
 
     std::vector<Passageiro*> passageirosSelecionados;
     std::cout << "Selecione os passageiros (digite os números separados por vírgulas):\n";
