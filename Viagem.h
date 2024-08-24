@@ -31,7 +31,7 @@ public:
 
     void avancarHoras(double horas) {
         if (!emAndamento) {
-            std::cerr << "A viagem não está em andamento.\n";
+            //std::cerr << "A viagem não está em andamento.\n";
             return;
         }
 
